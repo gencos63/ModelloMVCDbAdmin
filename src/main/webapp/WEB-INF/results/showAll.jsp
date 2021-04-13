@@ -9,7 +9,7 @@
     </head>
     <body>
     <table class="title">
-        <tr><th>Gestione clienti</th></tr>
+        <tr><th>Gestione dei clienti</th></tr>
     </table>
 
 
