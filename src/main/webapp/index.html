@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Applicativo banca</title>
+<link rel="stylesheet"
+      href="./css/styles.css"
+      type="text/css"/>
+</head>
+  <body>
+    <table class="title">
+      <tr><th>Gestione Banca</th></tr>
+    </table>
+    <br/>
+    <fieldset>
+      <legend>Bank Account Balance</legend>
+
+      <form action="show-balance">
+        Customer ID (1, 2, 3,...):
+        <input type="number" name="customerId"/><br/>
+        <input type="submit" value="Show Balance"/>
+      </form>
+    </fieldset>
+
+    <fieldset>
+      <legend>Area Amministratore</legend>
+      <form action="insert_form.html">
+        <label>Inserisci nuovo cliente</label>
+        <input type="submit" value="Inserisci">
+      </form>
+      <form action="show-all">
+        <label>Gestisci clienti</label>
+        <input type="submit" value="Mostra">
+      </form>
+    </fieldset>
+  </body>
+</html>
